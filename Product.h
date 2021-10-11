@@ -18,10 +18,10 @@ public:
     // 1, 2, or 3, denoting relative exchange-value with 1 being the least valuable and 3 being the most valuable
     int value;
 
-    void get_name() const;
-    void get_type() const;
-    void get_quantity() const;
-    void get_value() const;
+    string get_name() const;
+    product_type get_type() const;
+    int get_quantity() const;
+    int get_value() const;
 
     void set_quantity(int quantity);
 

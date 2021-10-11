@@ -16,6 +16,11 @@ public:
     string get_name() const;
     string get_location() const;
 
+    void add_import(Product product);
+    void remove_import(string product_name);
+    void add_export(Product product);
+    void remove_export(string product_name);
+
     virtual void produce();
 
 protected:

@@ -9,7 +9,6 @@ class Port : public Settlement {
 public:
     int fleet_id;
     vector<TradeFleet> fleets;
-
     int get_fleet_id() const;
 
 
